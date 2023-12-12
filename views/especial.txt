@@ -1,0 +1,52 @@
+<style>
+    h1{
+        background-color: #6cc091;
+        padding: 10px;
+    }
+    
+    .marcado{
+        background: #4d4d5c;
+        color: #fff;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    #articulo{
+        padding: 10px;
+    }
+    #especialimg{
+        float:right;
+    }
+</style>
+<div id="articulo">
+<h1>Equipaje especial</h1>
+<p>Se considera equipaje especial para artículos tales como:</p>
+<img id="especialimg" src="imagen/especial.png" alt="">
+<br>
+<h3>Equipaje deportivo:</h3>
+<ul>
+    <li><p>Equipo de golf Un par de zapatos y palos de golf.</p></li>
+    <li><p>Equipo de buceo Un par de equipos.</p></li>
+    <li><p>Equipo de esquí acuático o de nieve. Un par de esquís, bastones y botas.</p></li>
+    <li><p></p>Equipo de pesca.</li>
+    <li><p></p>Equipo de Snow Board Snowboard y un par de botas.</li>
+    <li><p></p>Equipo de bolos.</li>
+    <li><p></p>Arco y flecha deportiva</li>
+    <li><p></p>Equipo de paracaídas y paramenter.</li>
+    <li><p></p>Mochila con marco de metal.</li>
+    <li><p></p>Equipo de caza</li>
+</ul>
+<br>
+<h3>Equipaje deportivo con restricción:</h3>
+<ul>
+    <li><p>Equipo de surf: Debe estar debidamente protegido dentro de la carcasa.</p></li>
+    <li><p>Equipo de kitesurf: Tabla y cometa.</p></li>
+    <li><p>Equipo de windsurf: Boom board, daggerboard, mástil y vela.</p></li>
+    <li><p></p>Bicicleta: Doblado y almacenado en una caja o con su tapa.</li>
+</ul>
+<br>
+<h3>Instrumentos musicales:</h3>
+<ul>
+    <li><p>Cualquier instrumento musical en su estuche.</p></li>
+    <li><p>Si desea llevarlo consigo, debe pagar un asiento adicional.</p></li>
+</ul>
+</div>

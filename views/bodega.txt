@@ -1,0 +1,37 @@
+<style>
+    h1{
+        background-color: #6cc091;
+        padding: 10px;
+    }
+    
+    .marcado{
+        background: #4d4d5c;
+        color: #fff;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    #articulo{
+        padding: 10px;
+    }
+    img{
+        height: 300px;
+        width: 400px;
+    }
+</style>
+<div id="articulo">
+<h1>Equipaje de bodega</h1>
+<p>Este equipaje se transporta en las bodegas de las aeronaves y el pasajero no tiene acceso al mismo durante su viaje.</p>
+<img src="imagen/bodega.png" alt="">
+<h2>Tu equipaje de bodega debe:</h2>
+<ul>
+    <li><p>Ser entregado en nuestro counter de Check-in en el aeropuerto. De lo contrario, al momento de embarcar, se te cobrará un cargo adicional.</p></li>
+    <li><p>Cumplir con los pesos autorizados.</p></li>
+    <li><p>No contener artículos restringidos o elementos prohibidos.</p></li>
+</ul>
+<div class="marcado">
+    <p>Se permite el carrito de bebé plegable o una cesta o un baby básquet y un bolso de mano con los implementos del Bebé como servicio extra, totalmente gratis.</p>
+</div>
+<div class="marcado">
+    <p>Si el total equipaje facturado sobrepasa el límite de peso establecido, cada kg adicional se cobrara en aeropuerto, dependiendo la ruta.</p>
+</div>
+</div>

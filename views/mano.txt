@@ -1,0 +1,35 @@
+<style>
+    h1{
+        background-color: #6cc091;
+        padding: 10px;
+    }
+    
+    .marcado{
+        background: #4d4d5c;
+        color: #fff;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    #articulo{
+        padding: 10px;
+    }
+</style>
+<div id="articulo">
+<h1>Equipaje de mano</h1>
+<p>Viaja con una maleta y un artículo personal, ¡sin cargo adicional!</p>
+<img src="imagen/mano.png" alt="">
+<h2>Lo que debes considerar</h2>
+<ul>
+    <li><p>Las medidas máximas permitidas para la maleta de mano son 45 X 40 X 20.</p></li>
+    <li><p>El peso máximo de tu maleta de mano es de 5KG.</p></li>
+    <li><p>Adicionalmente a la maleta de mano, los maletines, bolsas pequeñas o artículos personales que tengas, deben colocarse bajo el asiento delantero, excepto en salidas de emergencia.</p></li>
+</ul>
+<div class="marcado">
+    <p>Si tu equipaje de mano cumple los requisitos, pero el espacio en cabina no es suficiente,
+        enviaremos tu maleta a la bodega sin costo.</p>
+</div>
+<div class="marcado">
+    <p>Si tu equipaje supera el peso y medidas tendrá un costo adicional. y
+        lo puedes pagar con efectivo o tarjeta.</p>
+</div>
+</div>

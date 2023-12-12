@@ -1,0 +1,30 @@
+<style>
+    h1{
+        background-color: #6cc091;
+        padding: 10px;
+    }
+    
+    .marcado{
+        background: #4d4d5c;
+        color: #fff;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    #articulo{
+        padding: 10px;
+    }
+    @media(max-width: 760px){
+        #restringidoimg{
+            width: 470px;
+            height: 340px;
+        }
+    }
+</style>
+<div id="articulo">
+<h1>Artículos restringidos</h1>
+<p>Todo el equipaje que se transporta tanto en la bodega como en la cabina del avión es revisado en cada aeropuerto para la seguridad de todos los pasajeros.</p>
+<br>
+<h2>Artículos que no pueden ser transportados:</h2>
+<br>
+<img id="restringidoimg" src="imagen/restringidos1.jpg" alt="">
+</div>

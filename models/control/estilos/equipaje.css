@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(../imagen/fondo1.jpg);
+    background-size: cover;
+}
+#cuerpo{
+    background: white;
+    height: 900px;
+    width: 1200px;
+    border: 5px solid #4d4d5c;
+    margin: auto;
+}
+#cabecera{
+    height: 230px;
+    width: 100%;
+    border: 1px solid #4d4d5c;
+    background: #4d4d5c;
+    display: flex;
+    text-align: center;
+}
+#cabecera img{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+}
+#cabecera div{
+    height: 160px;
+    width: 170px;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+#cabecera div button{
+    margin: 15px 0px;
+    font-size: 20px;
+    background-color: #6cc091;
+    padding: 5px;
+}
+#cabecera div button:hover{
+    background-color: white;
+    transition: 0.4s;
+}
+#contenido{
+    height: 600px;
+    width: 1100px;
+    margin: 0 auto;
+}
+@media(max-width: 760px){
+    #cuerpo{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        border: 0px;
+    }
+    #cabecera{
+        height: 200px;
+        width: 100%;
+        border: 0px solid #4d4d5c;
+    }
+    #cabecera img{
+        height: 70px;
+        width: 70px;
+        border-radius: 100%;
+    }
+    #cabecera div{
+        height: 80px;
+        width: 85px;
+        padding-top: 10px;
+        margin-left: 27px;
+    }
+    #cabecera div button{
+        margin: 15px 0px;
+        font-size: 13px;
+        background-color: #6cc091;
+        padding: 5px;
+    }
+    #contenido{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
